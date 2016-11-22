@@ -55,6 +55,8 @@ Scheduling:
 | ~      | Uncertainty of the starting time | ~20m
 | +      | Cool down before next dependent task | +20m
 | $      | Deadline (finish before)  | $16:00
+| x      | The task is finished      | x12:30
+| c      | The task is cancelled     | c14:20
 
 Dependency:
 
