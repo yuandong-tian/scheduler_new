@@ -66,7 +66,8 @@ Dependency:
 Note that dependency means the current task starts only after *all* tasks with the dependent tags are completed (plus their respective cooldown).
 
 
-Example:
+Example:  
+
 1. `[8:30a=1h~10m] Task 1`   
 Task 1 starts at 8:20-8:40am, and last for 1 hour.
 2. `[1h30m] Task 2`  
@@ -76,7 +77,8 @@ Task 3 lasts for 30 minutes and needs to start before 13:00
 4. `[50m$16:00] Task 4`  
 Task 4 lasts for 50 minutes and shall be completed before 16:00.
 
-Example that uses dependency:
+Example that uses dependency:  
+
 1. `[20m+10m][#first] Task 1`   
    `[30m][#second,first] Task 2`   
 Task 2 starts after at least 10 minutes after the completion of Task 1, which takes 20 minutes.
